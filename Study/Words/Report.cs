@@ -9,26 +9,26 @@ using System.Windows.Forms;
 
 //using CrystalDecisions.Shared;
 //using CrystalDecisions.ReportSource;
-using CrystalDecisions.CrystalReports.Engine;
+//using CrystalDecisions.CrystalReports.Engine;
 
 namespace Words
 {
-    public partial class Report : Form
-    {
-        public Report(DataTable data)
-        {
-            InitializeComponent();
+    //public partial class Report : Form
+    //{
+    //    public Report(DataTable data)
+    //    {
+    //        InitializeComponent();
 
-            WordCards1.SetDataSource(data);
-        }
+    //        WordCards1.SetDataSource(data);
+    //    }
 
-        public Report(ReportClass report, DataTable data)
-        {
-            InitializeComponent();
+    //    public Report(ReportClass report, DataTable data)
+    //    {
+    //        InitializeComponent();
 
-            this.crystalReportViewer1.ReportSource = report;
+    //        this.crystalReportViewer1.ReportSource = report;
 
-            report.SetDataSource(data);
-        }
-    }
+    //        report.SetDataSource(data);
+    //    }
+    //}
 }

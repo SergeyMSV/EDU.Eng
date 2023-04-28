@@ -9,7 +9,7 @@ using System.IO;
 
 namespace Words
 {
-    class DictionaryItem
+    partial class DictionaryItem
     {
         public DictionaryItem(string expression, string translation,
             string comment_expression, string comment_translation,

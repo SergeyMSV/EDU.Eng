@@ -330,14 +330,14 @@ namespace Words
         #region reports word-cards and format A5
         private void toolStripButton_WordCards_Click(object sender, EventArgs e)
         {
-            Report _reportDlg = new Report(GetSortedDataTableFrom_dataGridView_List());
-            _reportDlg.Show();
+            //Report _reportDlg = new Report(GetSortedDataTableFrom_dataGridView_List());
+            //_reportDlg.Show();
         }
 
         private void toolStripButton_ListA5_Click(object sender, EventArgs e)
         {
-            Report _reportDlg = new Report(new WordsA5(), GetSortedDataTableFrom_dataGridView_List());
-            _reportDlg.Show();
+            //Report _reportDlg = new Report(new WordsA5(), GetSortedDataTableFrom_dataGridView_List());
+            //_reportDlg.Show();
         }
 
         private DataTable GetSortedDataTableFrom_dataGridView_List()
