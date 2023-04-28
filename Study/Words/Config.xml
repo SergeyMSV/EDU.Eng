@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <card>
+    <status>
+      <status name = "Active"/>
+      <status name = "Studied"/>
+      <status name = "Postponed"/>
+    </status>
+    <categories>
+      <category name = "Business"/>
+      <category name = "Business Letters"/>
+      <category name = "Trade"/>
+      <category name = "Sentences"/>
+      <category name = "Job"/>
+      <category name = "Politeness"/>
+      <category name = "Family"/>
+      <category name = "Money"/>
+      <category name = "Documents"/>
+      <category name = "Conversation"/>
+      <category name = "Health"/>
+      <category name = "Education"/>
+      <category name = "Entertainment"/>
+      <category name = "Person"/>
+      <category name = "Justice"/>
+      <category name = "Buildings"/>
+      <category name = "Clothes"/>
+      <category name = "Beasts"/>
+      <category name = "Plants"/>
+      <category name = "Temp"/>
+      <category name = "P.3_1"/>
+      <category name = "P.3_1 addition"/>
+      <category name = "P.3_2"/>
+      <category name = "P.3_2 addition"/>
+      <category name = "P.3_3"/>
+      <category name = "P.3_4"/>
+      <category name = "P.3_5"/>
+      <category name = "P.3_5 addition"/>
+      <category name = "P.3_6"/>
+      <category name = "P.3_6 addition"/>
+      <category name = "P.3_7"/>
+      <category name = "P.3_7 addition"/>
+      <category name = "P.4_8"/>
+      <category name = "P.4_8 socializing"/>
+      <category name = "P.4_8 addition"/>
+      <category name = "P.4_9"/>
+      <category name = "P.4_9 socializing"/>
+      <category name = "P.4_9 addition"/>
+      <category name = "P.4_10"/>
+      <category name = "P.4_11"/>
+      <category name = "P.4_11 addition"/>
+      <category name = "P.4_12"/>
+      <category name = "P.4_13"/>
+      <category name = "P.4_14"/>
+      <category name = "P.4_15"/>
+      <category name = "P.4_16"/>
+      <category name = "P.4_16 socializing"/>
+      <category name = "P.4_16 addition"/>
+      <category name = "P.4_17"/>
+      <category name = "P.4_17 addition"/>
+      <category name = "P.4_18"/>
+      <category name = "P.4_19"/>
+      <category name = "P.4_19 addition"/>
+      <category name = "P.4_20"/>
+      <category name = "P.4_21"/>
+      <category name = "P.4_21 addition"/>
+      <category name = "EViU"/>
+      <category name = "Prepositions"/>
+      <category name = "Gerund"/>
+      <category name = "The Magician"/>
+      <category name = "The Magician.Expressions"/>
+      <category name = "set 2009 06 06"/>
+      <category name = "Living Language"/>
+      <category name = "rubbish"/>
+    </categories>
+  </card>
+</configuration>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DictionaryItem" targetNamespace="http://tempuri.org/DictionaryItem.xsd" xmlns:mstns="http://tempuri.org/DictionaryItem.xsd" xmlns="http://tempuri.org/DictionaryItem.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DictionaryItem" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DictionaryItem" msprop:Generator_UserDSName="DictionaryItem" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_TablePropName="DataTable1" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Expression" msprop:Generator_UserColumnName="Expression" msprop:Generator_ColumnPropNameInRow="Expression" msprop:Generator_ColumnVarNameInTable="columnExpression" msprop:Generator_ColumnPropNameInTable="ExpressionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Comment_x0020_on_x0020_the_x0020_expression" msprop:Generator_UserColumnName="Comment on the expression" msprop:Generator_ColumnPropNameInRow="Comment_on_the_expression" msprop:Generator_ColumnVarNameInTable="columnComment_on_the_expression" msprop:Generator_ColumnPropNameInTable="Comment_on_the_expressionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Translation" msprop:Generator_UserColumnName="Translation" msprop:Generator_ColumnPropNameInRow="Translation" msprop:Generator_ColumnVarNameInTable="columnTranslation" msprop:Generator_ColumnPropNameInTable="TranslationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Comment_x0020_on_x0020_the_x0020_translation" msprop:Generator_UserColumnName="Comment on the translation" msprop:Generator_ColumnPropNameInRow="Comment_on_the_translation" msprop:Generator_ColumnVarNameInTable="columnComment_on_the_translation" msprop:Generator_ColumnPropNameInTable="Comment_on_the_translationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Counter" msprop:Generator_UserColumnName="Counter" msprop:Generator_ColumnPropNameInRow="Counter" msprop:Generator_ColumnVarNameInTable="columnCounter" msprop:Generator_ColumnPropNameInTable="CounterColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Index" msprop:Generator_UserColumnName="Index" msprop:Generator_ColumnPropNameInRow="Index" msprop:Generator_ColumnVarNameInTable="columnIndex" msprop:Generator_ColumnPropNameInTable="IndexColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
