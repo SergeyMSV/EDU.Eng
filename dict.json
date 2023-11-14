@@ -1,0 +1,31 @@
+{
+  "dict": [
+    {
+      "expression": "effective",
+      "translation": "эффективный",
+      "comment_expression": "effective modifications&#xD;&#xA;effective control&#xD;&#xA;effective methods&#xD;&#xA;effective plans",
+      "comment_translation": "",
+      "status": "Active",
+      "counter": 0,
+      "property name": [ "P.3_5", "Health", "Smth else..." ]
+    },
+    {
+      "expression": "alterations",
+      "translation": "изменения",
+      "comment_expression": "an alteration in smth&#xD;&#xA;to make alterations&#xD;&#xA;to introduce alterations&#xD;&#xA;A number of alterations have been made in the design.&#xD;&#xA;syn.: modification",
+      "comment_translation": "",
+      "status": "Active",
+      "counter": 3,
+      "property name": [ "P.3_5", "Questions", "Smth else..." ]
+    },
+    {
+      "expression": "an operating field of the reader",
+      "translation": "место для карточек на кард-ридере",
+      "comment_expression": "If there are several cards in the operating field of the reader, they can be distinguished by their identifier.",
+      "comment_translation": "",
+      "status": "Active",
+      "counter": 3,
+      "property name": [ "Card", "RFID" ]
+    }
+  ]
+}
