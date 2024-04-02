@@ -27,5 +27,15 @@
       "counter": 3,
       "property name": [ "Card", "RFID" ]
     }
+  ],
+  "text": [
+    {
+      "tag": [
+        "information",
+        "transition",
+        "intercept",
+        "tamper"
+      ],
+      "content": "Messages can be intercepted or tampered with while they travel from one endpoint to the other. Also new messages can be injected. The task of TLS is to make sure that specific security properties of the connection like Secrecy, Forward Secrecy or Authentication are enforced. &#xD;&#xA; The state machine of TLS is not formally specified. Therefore, each TLS library has some freedom in handling the state transitions and edge cases."    }
   ]
 }
