@@ -7,7 +7,7 @@
       "comment_translation": "",
       "status": "Active",
       "counter": 0,
-      "property name": [ "P.3_5", "Health", "Smth else..." ]
+      "tag": [ "P.3_5", "Health", "Smth else..." ]
     },
     {
       "expression": "alterations",
@@ -16,7 +16,7 @@
       "comment_translation": "",
       "status": "Active",
       "counter": 3,
-      "property name": [ "P.3_5", "Questions", "Smth else..." ]
+      "tag": [ "P.3_5", "Questions", "Smth else..." ]
     },
     {
       "expression": "an operating field of the reader",
@@ -25,17 +25,36 @@
       "comment_translation": "",
       "status": "Active",
       "counter": 3,
-      "property name": [ "Card", "RFID" ]
+      "tag": [ "Card", "RFID" ]
+    },
+    {
+      "expression": "crossroads",
+      "translation": "перекрёсток",
+      "comment_expression": "Turn right at the first crossroads.",
+      "comment_translation": "",
+      "status": "Active",
+      "counter": 3,
+      "tag": [ "Way" ]
+    },
+    {
+      "expression": "crosswalk",
+      "translation": "пешеходный переход",
+      "comment_expression": "A crosswalk is a place where pedestrians can cross a street and where drivers must stop to let them cross. (AM; in BRIT, usually use pedestrian crossing",
+      "comment_translation": "",
+      "status": "Active",
+      "counter": 3,
+      "tag": [ "Way" ]
     }
   ],
   "text": [
     {
+      "content": "Messages can be intercepted or tampered with while they travel from one endpoint to the other. Also new messages can be injected. The task of TLS is to make sure that specific security properties of the connection like Secrecy, Forward Secrecy or Authentication are enforced. &#xD;&#xA; The state machine of TLS is not formally specified. Therefore, each TLS library has some freedom in handling the state transitions and edge cases.",
       "tag": [
         "information",
         "transition",
         "intercept",
         "tamper"
-      ],
-      "content": "Messages can be intercepted or tampered with while they travel from one endpoint to the other. Also new messages can be injected. The task of TLS is to make sure that specific security properties of the connection like Secrecy, Forward Secrecy or Authentication are enforced. &#xD;&#xA; The state machine of TLS is not formally specified. Therefore, each TLS library has some freedom in handling the state transitions and edge cases."    }
+      ]
+    }
   ]
 }
